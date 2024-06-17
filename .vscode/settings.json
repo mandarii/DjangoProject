@@ -1,0 +1,13 @@
+{
+    "python.pythonPath": "virtualenv\\Scripts\\python.exe",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88"
+    ],
+    "python.formatting.provider": "black",
+    "python.envFile": "${workspaceFolder}/.virtualenv",
+    "editor.formatOnSave": true
+}
+

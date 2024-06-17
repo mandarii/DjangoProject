@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Django Migrations",
+            "type": "shell",
+            "command": "${workspaceFolder}/manage.py migrate",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Collect Static Files",
+            "type": "shell",
+            "command": "${workspaceFolder}/manage.py collectstatic --noinput",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
