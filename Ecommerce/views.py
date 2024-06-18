@@ -8,4 +8,4 @@ def product_list(request):
     context = {
         'products': products
     }
-    return render(request,'htmlfile'.context)
+    return render(request,'Ecommerce/product_list.html',context)
